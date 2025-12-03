@@ -31,9 +31,19 @@ l2.pop()
 print(l2)
 l2.pop(2)
 print(l2)
-print("Count:",l2.count(33))
-quit(l2)
 
+print("list using for loop:")
+for q in l2:
+    print(q)
+print(l2)
+
+print("----lIST USING FOR LOOP RANGE :-----")
+for p in range(1,5):     #to display sepecific element from list
+    print(l2[p])
+
+
+print("Count:",l2.count(33))
+quit(l2)                #to remove all elements from list
 
 l2.clear()    #clear is  to remove all elements from list
 print(l2)
