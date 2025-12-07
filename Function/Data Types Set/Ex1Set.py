@@ -13,7 +13,11 @@ Remove ---single element -  remove --through error in element not present in set
        ----single element --discard  -does not through error if element not present in set.
       -----pop-re remove any random element /data.
 sort -to sort set (increment values)
- del /celar -to delete entire set"""
+ del /celar -to delete entire set
+
+ Sort -used to sort set elements and convert it into list
+
+ """
 
 st={"abc","ppp",200,1,39.9,"kkk","abc","abc"}   #if store duplicate values stores only single value.
 print(st)
@@ -44,7 +48,7 @@ print(st)
 st1=st.copy()
 print("Copied values of st in st1=",st1)
 
-#Sort to sort set
+#when set values Sort then it returns into convert into list
 jaya={300,900,100,800}
 print("Original set:",jaya)
 s=sorted(jaya)
