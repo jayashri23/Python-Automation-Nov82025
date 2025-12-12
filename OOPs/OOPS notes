@@ -1,0 +1,41 @@
+############    Object Oriented Programming language(OOPS)  ######
+-Python is structure and object oriented language.
+-if not using class /object to run code then called structure oriented language.
+-if class and object need then this is object oriented language.
+-java-object oriented
+-Structure means no need to create class object to run program.
+
+--------------------Class------------------------------------
+-class is user defined blue print i.e local entity where we can perform different operation.
+class contains method,constructor,class variable,instant variable.
+class className:
+MethodName():
+
+
+
+-------------------object-------------------------------------
+Object is Physical entities ,store data,allocate memory.
+Pythod object state-Attribute(variable)
+behaviour-method
+class ClassName:
+MethodName():
+Body of method
+
+
+
+------------Function and Method difference in python----------
+Function-Function out side class called Function
+Method-if function created inside class called method
+
+
+
+---------------Method------------------------------------------
+two types
+1.static
+2.non static
+__________Constructor-------------------------------------------
+
+
+
+
+
