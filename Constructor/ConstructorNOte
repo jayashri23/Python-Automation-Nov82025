@@ -3,8 +3,16 @@ Constructor
 -init-(double under line)
 -it is used to initialize object of class
 
+use-
+1.initialize object
+2.throughout class use kar sakte hai
 
-Difference betn method and constructor
+types of constructor--
+1.Default constructor
+2.user defined constructor--{a.Parameterised .b.Non parametrised
+
+
+Difference between method and constructor-
 method
 1.give any name
 2.return values
@@ -16,4 +24,6 @@ Constructor
 2.will not return any value
 3.can take any parameter
 4.will call at the time of object creation itself
-
+--------------------------------------------------------------
+Static method not used for constructor
+bcz static method no need to create object and if not created object then constructor not called.
