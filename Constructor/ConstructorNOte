@@ -1,0 +1,19 @@
+Constructor
+-A constructor is special type of method
+-init-(double under line)
+-it is used to initialize object of class
+
+
+Difference betn method and constructor
+method
+1.give any name
+2.return values
+3.can take any parameter /argument
+4.use object to call/class to call
+
+Constructor
+1.Name is fixed def_init_(self)
+2.will not return any value
+3.can take any parameter
+4.will call at the time of object creation itself
+
