@@ -3,7 +3,10 @@
 1.Method Over ridding---
 Sub derived  class provide a specific implementation of method that is already defined in parent class is called over ridding.
 method name and parameter should be same then only over ridding happens
-
+---A child class provides its own implementation of a method that already exists in the parent class.---
+Same method name
+✔ Same parameters
+✔ Different behavior
 """
 class Father:
 
