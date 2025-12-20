@@ -11,8 +11,6 @@ class Mother:
     def m1(self):
         print("I am a mother")
 
-    def m1(self):
-        print("I am a mother")
 
 
 class Son1(Mother):

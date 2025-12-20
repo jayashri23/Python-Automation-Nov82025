@@ -4,6 +4,7 @@
 1.single level
 2.multi level
 3.Hierarchical
+4.Multiple
 #this is single level inheritance-2 class only involve    """
 
 class Father:

@@ -20,7 +20,6 @@ class Demo2:
 Demo2().m3()
 Demo2().m4()
 
-
     #Nonstatic method call
 d=Demo2()
 d.m5()
