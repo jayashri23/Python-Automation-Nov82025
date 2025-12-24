@@ -1,0 +1,7 @@
+------------Package ------
+Package is collection of modules
+Package-->n module
+            1 module-->n function
+                        n methods
+                        
+
