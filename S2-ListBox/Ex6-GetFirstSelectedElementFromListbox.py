@@ -11,18 +11,7 @@ driver= webdriver.Chrome(service=path)
 
 driver.get("https://www.facebook.com/r.php?entry_point=login")
 
-#step=1
-month=driver.find_element(By.XPATH,"//select[@name='birthday_month']")
-time.sleep(3)
-#step=2
-g=Select(month)
+single=driver.find_element(By.XPATH,"//select[@id='month']")
 
-#step=3
-#g.select_by_value("4")
-#time.sleep(3)
-
-#g.select_by_visible_text("Sep")
-#time.sleep(3)
-
-g.select_by_index(10)
-time.sleep(3)
+s=Select(single)
+print(s.first_selected_option.text)
