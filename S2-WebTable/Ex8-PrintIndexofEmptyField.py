@@ -10,12 +10,17 @@ driver= webdriver.Chrome(service=path)
 driver.get("file:///C:/Users/in04065/PyCharmMiscProject/Table.html")
 time.sleep(2)
 
-AllElement=driver.find_elements(By.XPATH,"//table[@id='1234']//td")
-empty=0
-for singleElement in AllElement:
-    text=singleElement.text.strip()
-    if text == "":
-     empty +=1
+AllRow=driver.find_elements(By.XPATH,"//tr")
 
-print("Total Empty field:",empty)
+rowIndex=1
+for singleRow in AllRow:
+    AllCol=singleRow.find_elements(By.TAG_NAME,"td")
+    colIndex=1
+    for singleCol in AllCol:
+        if singleCol.text =="":
+            print("Row Index:",rowIndex ,"Column Index:",colIndex)
+        colIndex +=1
+    print()
+    rowIndex +=1
+
 
