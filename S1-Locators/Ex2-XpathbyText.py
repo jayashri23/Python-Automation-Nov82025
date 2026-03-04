@@ -15,4 +15,3 @@ driver.find_element(By.XPATH,"//button[text()='Log in']" ).click()
 #click on forgot passed button
 driver.find_element(By.XPATH, "//a[text()='Forgotten password?']").click()
 time.sleep(2)
-driver.find_element(By.XPATH,"")
